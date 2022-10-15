@@ -19,6 +19,10 @@ Windows(x64)
 Currently ive made a cmd thing and a remote file manager and some more.\
 I rushed both of these as they were just meant to be examples.
 
+## **Some Images**
+![Full Client](Images/1.png?raw=true)
+![Options menu](Images/2.png?raw=true)
+
 ## **Contact:**
 Feel free to contact me if you have any problems.
 if you want something added feel free to ask by joining by discord server.\
